@@ -1,0 +1,13 @@
+.simple-table{
+    margin-top: 100px;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+.red{
+    color: red;
+    border-color: red;
+}
+
