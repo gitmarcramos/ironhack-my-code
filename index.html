@@ -11,14 +11,37 @@
 
 <body>
 
-    <div>This is my paragraph with some <span>spans</span>. <span>Spans</span> are some block elements.</div>
-    <div>Here's a paragraph with some <h1>Inline elements</h1>As H1 are inline elements they take a <h2>full line</h2>
-    </div>
+    <!-- Line VS Block -->
+
+    <h1>Iteration 1. Inline VS Block elements</h1>
+
+    <p>Write a paragraph containing some span or em tags of <span class="orange">different colors</span>. Spans are
+        inline elements, meaning that their
+        <em class="red">default</em> display property value is <em class="green">inline</em>. Those elements will follow
+        the <em class="orange">horizontal</em> flow of a document. <span class="red">Inline elements</span> go next to
+        another inline element so you won't have any line break until you decide do insert one (like here with a br
+        tag).</p>
+
+    <p>Images are inline element too! <img src="https://fr.web.img2.acsta.net/newsv7/17/12/15/12/45/5897672.jpg" alt="">
+        That's a simple but <em class="orange">super
+            important</em> point to remember ! Feel free to dif deeper with the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/
+        Inline_elements">MDN doc</a>.</p>
+
+
+    <!-- Somple List -->
+    <h1>Iteration 2 - Simple list</h1>
+    <ol>
+        <li>Open visual studio code</li>
+        <li>Launch a terminal window</li>
+        <li>Open your browser</li>
+        <li>Open devtools</li>
+        <li>Start coding awesome apps</li>
+    </ol>
 
     <!-- Simple table -->
-    <div class="table-section">
-        <h2 class="simple-table">Simple table</h2>
-        <table>
+    <h1 class="simple-table">Simple table</h1>
+    <table>
+        <tbody>
             <tr>
                 <td>Ace</th>
                 <td class="red">Diamond</th>
@@ -27,35 +50,37 @@
                 <td class="red">Heart</td>
                 <td>Spades</td>
             </tr>
-        </table>
-    </div>
+        </tbody>
+    </table>
 
 
     <!-- Nested list -->
-    <div class="nested-list">
-        <h2>Nested list</h2>
-        <ol>
-            <li>level 1.1</li>
-            <li>level 1.2</li>
-            <ul>
-                <li>level 2.1</li>
-                <ol>
-                    <li>level 3.1</li>
-                    <li>level 3.2</li>
-                    <li>level 3.3</li>
-                </ol>
-                <li>level 2.2</li>
-                <li>level 2.3</li>
-            </ul>
-            <li>level 3.1</li>
-        </ol>
-    </div>
+    <h1>Nested list</h1>
+    <ol>
+        <li>level 1.1</li>
+        <li>level 1.2</li>
+        <ul>
+            <li>level 2.1</li>
+            <ol>
+                <li>level 3.1</li>
+                <li>level 3.2</li>
+                <li>level 3.3</li>
+            </ol>
+            <li>level 2.2</li>
+            <li>level 2.3</li>
+        </ul>
+        <li>level 3.1</li>
+    </ol>
 
 
     <!-- More complex table -->
-    <div class="more-complexe-table">
-        
-    </div>
+
+
+
+    <!-- Video Player -->
+        <h1>Video player</h1>
+        <video src="/img/pexels-taryn-elliott-8820216.mp4" type="video/mp4" controls></video>
+
 
 
 </body>
