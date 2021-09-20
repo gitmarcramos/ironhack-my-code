@@ -32,3 +32,11 @@ img{
 video{
     height: 50vh;
 }
+
+.poster{
+    width: 100px;
+}
+
+audio{
+    display: block;
+}
