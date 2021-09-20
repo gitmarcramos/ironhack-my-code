@@ -8,10 +8,20 @@
 }
 
 
+.complexe-table{
+    width: 50%;
+    height: 100px;
+    border-collapse: collapse;
+    text-align: center;
+}
 
-table, td{
+table, td, th{
     border: 1px solid black;
     empty-cells: show;
+}
+
+#span-table {
+    column-span: 3;
 }
 
 img{
