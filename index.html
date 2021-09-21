@@ -1,146 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML Challenge 1</title>
-    <link rel="stylesheet" href="/css/styles.css">
-</head>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
 
-<body>
-
+  <body>
     <!-- Line VS Block -->
 
     <h2>Iteration 1. Inline VS Block elements</h2>
 
-    <p>Write a paragraph containing some span or em tags of <span class="orange">different colors</span>. Spans are
-        inline elements, meaning that their
-        <em class="red">default</em> display property value is <em class="green">inline</em>. Those elements will follow
-        the <em class="orange">horizontal</em> flow of a document. <span class="red">Inline elements</span> go next to
-        another inline element so you won't have any line break until you decide do insert one (like here with a br
-        tag).</p>
+    <p>
+      Write a paragraph containing some span or em tags of
+      <span class="orange">different colors</span>. Spans are inline elements,
+      meaning that their <em class="red">default</em> display property value is
+      <em class="green">inline</em>. Those elements will follow the
+      <em class="orange">horizontal</em> flow of a document.
+      <span class="red">Inline elements</span> go next to another inline element
+      so you won't have any line break until you decide do insert one (like here
+      with a br tag).
+    </p>
 
-    <p>Images are inline element too! <img src="https://fr.web.img2.acsta.net/newsv7/17/12/15/12/45/5897672.jpg" alt="">
-        That's a simple but <em class="orange">super important</em> point to remember ! Feel free to dif deeper with the
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements">MDN doc</a></p>
-
+    <p>
+      Images are inline element too!
+      <img
+        src="https://fr.web.img2.acsta.net/newsv7/17/12/15/12/45/5897672.jpg"
+        alt=""
+      />
+      That's a simple but <em class="orange">super important</em> point to
+      remember ! Feel free to dif deeper with the
+      <a
+        href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements"
+        >MDN doc</a
+      >
+    </p>
 
     <!-- Simple List -->
     <h2>Iteration 2 - Simple list</h2>
     <ol>
-        <li>Open visual studio code</li>
-        <li>Launch a terminal window</li>
-        <li>Open your browser</li>
-        <li>Open devtools</li>
-        <li>Start coding awesome apps</li>
+      <li>Open visual studio code</li>
+      <li>Launch a terminal window</li>
+      <li>Open your browser</li>
+      <li>Open devtools</li>
+      <li>Start coding awesome apps</li>
     </ol>
 
     <!-- Simple table -->
     <h2 class="simple-table">Simple table</h2>
     <table>
-        <tbody>
-            <tr>
-                <td>Ace</td>
-                <td class="red">Diamond</td>
-            </tr>
-            <tr>
-                <td class="red">Heart</td>
-                <td>Spades</td>
-            </tr>
-        </tbody>
+      <tbody>
+        <tr>
+          <td>Ace</td>
+          <td class="red">Diamond</td>
+        </tr>
+        <tr>
+          <td class="red">Heart</td>
+          <td>Spades</td>
+        </tr>
+      </tbody>
     </table>
-
 
     <!-- Complexe table -->
     <h2>Complexe table</h2>
     <table class="complexe-table">
-        <thead>
-            <tr>
-                <th colspan="2"></th>
-                <th colspan="2">first group</th>
-                <th colspan="2">second group</th>
-            </tr>
-            <tr>
-                <th></th>
-                <th>Person</th>
-                <th>Singular</th>
-                <th>Plural</th>
-                <th>Singular</th>
-                <th>Plural</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td rowspan="3">Present</td>
-                <td>1</td>
-                <td>i code</td>
-                <td>we code</td>
-                <td>i succeed</td>
-                <td>we succeed</td>
-            </tr>
-            <tr>
-                <td>2</td>
-                <td>you code</td>
-                <td>they code</td>
-                <td>you succeed</td>
-                <td>they succeed</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>he/she codes</td>
-                <td>they code</td>
-                <td>he/she succeeds</td>
-                <td>they succeed</td>
-            </tr>
-        </tbody>
+      <thead>
+        <tr>
+          <th colspan="2"></th>
+          <th colspan="2">first group</th>
+          <th colspan="2">second group</th>
+        </tr>
+        <tr>
+          <th></th>
+          <th>Person</th>
+          <th>Singular</th>
+          <th>Plural</th>
+          <th>Singular</th>
+          <th>Plural</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">Present</td>
+          <td>1</td>
+          <td>i code</td>
+          <td>we code</td>
+          <td>i succeed</td>
+          <td>we succeed</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>you code</td>
+          <td>they code</td>
+          <td>you succeed</td>
+          <td>they succeed</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>he/she codes</td>
+          <td>they code</td>
+          <td>he/she succeeds</td>
+          <td>they succeed</td>
+        </tr>
+      </tbody>
     </table>
-
 
     <!-- Nested list -->
     <h2>Nested list</h2>
     <ol>
-        <li>level 1.1</li>
-        <li>level 1.2</li>
-        <li>
-            <ul>
-                <li>level 2.1</li>
-                <li>
-                    <ol>
-                        <li>level 3.1</li>
-                        <li>level 3.2</li>
-                        <li>level 3.3</li>
-                    </ol>
-                </li>
-                <li>level 2.2</li>
-                <li>level 2.3</li>
-            </ul>
-        </li>
+      <li>level 1.1</li>
+      <li>level 1.2</li>
+      <li>
+        <ul>
+          <li>level 2.1</li>
+          <li>
+            <ol>
+              <li>level 3.1</li>
+              <li>level 3.2</li>
+              <li>level 3.3</li>
+            </ol>
+          </li>
+          <li>level 2.2</li>
+          <li>level 2.3</li>
+        </ul>
+      </li>
 
-        <li>level 3.1</li>
+      <li>level 3.1</li>
     </ol>
-
 
     <!-- More complex table -->
 
-
-
     <!-- Video Player -->
     <h2>Video player</h2>
-    <video src="/img/pexels-taryn-elliott-8820216.mp4" controls
-        poster="https://images.unsplash.com/photo-1457195740896-7f345efef228?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80"></video>
-
-
+    <video
+      src="/img/pexels-taryn-elliott-8820216.mp4"
+      controls
+      poster="https://images.unsplash.com/photo-1457195740896-7f345efef228?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80"
+    ></video>
 
     <!-- Audio player -->
     <h2>Audio player</h2>
 
-    <img src="https://www.nuclearblast.de/static/articles/264/264958.jpg/1000x1000.jpg" alt="" class="poster">
-    <audio controls poster="https://www.nuclearblast.de/static/articles/264/264958.jpg/1000x1000.jpg" src="/audio/Metallica-Master Of Puppets(Lyrics).mp3"></audio>
-
-
-
-</body>
-
+    <img
+      src="https://www.nuclearblast.de/static/articles/264/264958.jpg/1000x1000.jpg"
+      alt=""
+      class="poster"
+    />
+    <audio controls src="/audio/Metallica-Master-Of-Puppets-(Lyrics).mp3"></audio>
+  </body>
 </html>
